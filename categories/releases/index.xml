@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>releases on Blogs of YX</title>
+    <link>https://yxvine.github.io/categories/releases/</link>
+    <description>Recent content in releases on Blogs of YX</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yxvine.github.io/categories/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新的blog开始的第一天</title>
+      <link>https://yxvine.github.io/2019/10/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/2019/10/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/</guid>
+      <description>&lt;p&gt;今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
