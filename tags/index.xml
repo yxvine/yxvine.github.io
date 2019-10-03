@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blogs of YX</title>
+    <link>https://yxvine.github.io/tags/</link>
+    <description>Recent content in Tags on Blogs of YX</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yxvine.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>disqus</title>
+      <link>https://yxvine.github.io/tags/disqus/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/tags/disqus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google analytics</title>
+      <link>https://yxvine.github.io/tags/google-analytics/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gravatar</title>
+      <link>https://yxvine.github.io/tags/gravatar/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/tags/gravatar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo start</title>
+      <link>https://yxvine.github.io/tags/hexo-start/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/tags/hexo-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>responsive</title>
+      <link>https://yxvine.github.io/tags/responsive/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yxvine.github.io/tags/responsive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
