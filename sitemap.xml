@@ -9,12 +9,47 @@
   
   <url>
     <loc>https://yxvine.github.io/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yxvine.github.io/categories/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/categories/linux/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/tags/linux/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/post/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/tags/ssh/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/categories/ssh/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/2019/10/ssh-%E4%BB%A3%E7%90%86%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yxvine.github.io/tags/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,22 +78,12 @@
   </url>
   
   <url>
-    <loc>https://yxvine.github.io/post/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yxvine.github.io/categories/releases/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yxvine.github.io/tags/responsive/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yxvine.github.io/tags/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url>
   
