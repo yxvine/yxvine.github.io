@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.58.3 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="Xing Yang">
+<meta name="keywords" content="disqus, google, gravatar, development, next-gen">
+<meta name="description" content="今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。">
+
+
+<meta property="og:description" content="今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="新的blog开始的第一天">
+<meta name="twitter:title" content="新的blog开始的第一天">
+<meta property="og:url" content="https://yxvine.github.io/2019/10/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/">
+<meta property="twitter:url" content="https://yxvine.github.io/2019/10/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/">
+<meta property="og:site_name" content="Blogs of YX">
+<meta property="og:description" content="今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。">
+<meta name="twitter:description" content="今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。">
+<meta property="og:locale" content="zh-cn">
+
+  
+    <meta property="article:published_time" content="2019-10-03T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2019-10-03T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="tranquilpeak">
+    
+      <meta property="article:section" content="releases">
+    
+      <meta property="article:section" content="hugo">
+    
+  
+  
+    
+      <meta property="article:tag" content="hexo start">
+    
+      <meta property="article:tag" content="responsive">
+    
+      <meta property="article:tag" content="gravatar">
+    
+      <meta property="article:tag" content="disqus">
+    
+      <meta property="article:tag" content="google analytics">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://yxvine.github.io/images/bgyx1.png">
+  <meta property="twitter:image" content="https://yxvine.github.io/images/bgyx1.png">
+
+
+  <meta property="og:image" content="https://yxvine.github.io/images/bgyx.jpg">
+  <meta property="twitter:image" content="https://yxvine.github.io/images/bgyx.jpg">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/3da7f57a2dd8d0ab8776bdfac1627091?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/3da7f57a2dd8d0ab8776bdfac1627091?s=640">
+
+
+    <title>新的blog开始的第一天</title>
+
+    <link rel="icon" href="https://yxvine.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://yxvine.github.io/2019/10/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://yxvine.github.io/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://yxvine.github.io/">Blogs of YX</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://yxvine.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/3da7f57a2dd8d0ab8776bdfac1627091?s=90" alt="作者的图片" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://yxvine.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/3da7f57a2dd8d0ab8776bdfac1627091?s=110" alt="作者的图片" />
+        </a>
+        <h4 class="sidebar-profile-name">Xing Yang</h4>
+        
+          <h5 class="sidebar-profile-bio">通信专业研究生毕业</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">分类</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">归档</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">关于</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/about/">
+    
+      
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/ViYine" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yxvine.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-center
+              "
+       style="background-image:url('/images/bgyx.jpg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      新的blog开始的第一天
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-10-03T00:00:00Z">
+        
+  
+  
+  
+  
+    3 十月 2019
+  
+
+      </time>
+    
+    
+  
+  
+    <span>发布在</span>
+    
+      <a class="category-link" href="https://yxvine.github.io/categories/tranquilpeak">tranquilpeak</a>, 
+    
+      <a class="category-link" href="https://yxvine.github.io/categories/releases">releases</a>, 
+    
+      <a class="category-link" href="https://yxvine.github.io/categories/hugo">hugo</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章常用的怎么配置就行。</p>
+
+<p><img src="https://yxvine.github.io/images/firstblogs/final.png" alt="最终的blog的示例" />
+今天准备开始在hugo上新开始自己的blog，折腾的一天，主要涵盖了hugo的安装，以及主题的安装使用，其实选定好主题之后，明确基本的写文章使用markdown文章常用的设置，主要是图片的链接和位置，以及基本的代码高亮等显示，以及最后的关联到github.io的网站。下面是过程的记录
+<h1 id="table-of-contents">目录</h1><nav id="TableOfContents">
+<ul>
+<li><a href="#hugo的安装">hugo的安装</a>
+<ul>
+<li><a href="#为什么选择hugo">为什么选择hugo</a></li>
+<li><a href="#安装正式过程">安装正式过程</a></li>
+</ul></li>
+<li><a href="#hugo主题的选择">hugo主题的选择</a></li>
+<li><a href="#github-io的创建">github.io的创建</a></li>
+<li><a href="#部署到github-io">部署到github.io</a></li>
+</ul>
+</nav></p>
+
+<h1 id="hugo的安装">hugo的安装</h1>
+
+<h2 id="为什么选择hugo">为什么选择hugo</h2>
+
+<p>我之前也用hexo搭建过blogs，之前的体验是安装编译的过程比较慢，hexo是用node.js编写的，而由于我一直对golang念念不忘，虽然目前为止我实际的工作里面从来没有用go进行开发。所以当我看到有人的推荐使用hugo搭建blog而hugo又是go编写的时候，我果断决定折腾一下重新在hugo上搭建一个blog，并要坚持写作下去（之前的blog也荒废了:see_no_evil:）。</p>
+
+<h2 id="安装正式过程">安装正式过程</h2>
+
+<p>参考<a href="https://www.gohugo.org/">hugo的官方文档</a>。但是自己踩坑了.</p>
+
+<ol>
+<li><p>安装的时候一定要选择最新版本。由于我的是ubuntu的系统，直接使用apt-get install hugo也可以安装hugo，但是这样安装的hugo的版本是很老的版本，（这导致了我后面下了好几个主题进行配置的时候，编译全部失败）；上面的官方文档<a href="https://www.gohugo.org/">hugo的官方文档</a> 里面的通过go get的方式安装速度很慢，而且容易go get失败。</p></li>
+
+<li><p>ubuntu安装hugo最简单的方式是通过在对应的github上下在<a href="https://github.com/gohugoio/hugo/releases">release</a>的linux的deb进行安装(可以直接双击进行安装)。不过在linux下还用双击的方式，那还不如回去用windows.</p>
+
+<pre><code class="language-sh">
+wget/curl -O https://github.com/gohugoio/hugo/releases/download/hugo_0.58.3_Linux-64bit.deb
+
+dpkg -i hugo_0.58.3_Linux-64bit.deb
+
+# 安装成功之后可以新建自己的blog的站点了
+# 我希望的站点目录为 ：~/mysites
+hugo new site ~/mysites
+hugo new about.md #新建md文件，会在content目录下
+</code></pre></li>
+</ol>
+
+<p>站点的目录结构(带有&gt;表示目录文件)：</p>
+
+<pre><code class="language-shell">&gt; archetypes  
+config.toml  
+&gt; content  #存放各种md文件
+&gt; data  
+&gt; layouts  
+&gt; resources  
+&gt; static  #存放各种静态资源，主要是图片
+&gt; themes #存放各种主题相关的配置文件
+</code></pre>
+
+<p><img src="https://yxvine.github.io/images/firstblogs/dir.png" alt="目录结构" /></p>
+
+<h1 id="hugo主题的选择">hugo主题的选择</h1>
+
+<p>其实安装hugo的过程很简单，很大程度上在使用过程中的对于需要怎么配置的使用，完全依赖于选择的主题。所以在选择主题上，在<a href="https://themes.gohugo.io/">hugo主题网站上</a>自己也是一通搜索，并尝试了几个之后，最后选定了<a href="https://github.com/kakawait/hugo-tranquilpeak-theme">hugo-tranquilpeak-theme的主题</a>。</p>
+
+<p>主要是该主题的文档说明较为详细，同时，给每篇blog增加缩略图的方式也是我比较喜欢的。不过更多设置方面的配置需要继续使用之后进一步完善。</p>
+
+<p>目前我使用的方式是，将该主题下的example的config.toml基础上进行了 修改，并在content下的md文档也在原来的基础上进行修改。</p>
+
+<p>做一点说明：在写md文件的时候，里面使用到的图片需要放到static目录下（是以static为根目录访问图片的）。</p>
+
+<p>ex：</p>
+
+<pre><code class="language-sh">![目录结构](/images/firstblogs/dir.png) 
+
+# 实际的图片路径为 Siteroot/static/images/firstblogs/dir.png
+</code></pre>
+
+<p>选定好主题之后，使用如下命令可以预览当前的blog的渲染情况：</p>
+
+<pre><code class="language-shell">hugo server -t tranquilpeak -D
+</code></pre>
+
+<p>此时打开:<code>localhost:1313</code>；即可预览当前blog网页的情况。同时，hugo支持实时预览，本地修改对应的md文件之后，可以热编译，更新到最新内容。</p>
+
+<h1 id="github-io的创建">github.io的创建</h1>
+
+<p>在github的创建repo上创建一个<code>yourname.github.io</code>的目录分支。</p>
+
+<h1 id="部署到github-io">部署到github.io</h1>
+
+<p>部署脚本：</p>
+
+<pre><code class="language-sh">#!/bin/bash 
+
+# 删除打包文件夹
+rm -rf public
+
+# 打包。even 是主题
+hugo -t tranquilpeak # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+
+# 进入打包文件夹
+cd public
+
+# Add changes to git.
+
+git init
+git add -A
+
+# Commit changes.
+msg=&quot;building site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+
+git remote add origin https://github.com/yxvine/yxvine.github.io.git
+
+git pull --rebase origin master
+
+
+# 推送到github
+# yxvine.github.io 只能使用 master分支
+
+git push -u origin master
+
+
+# 回到原文件夹git@github.com:yxvine/yxvine.github.io.git
+cd ..
+
+</code></pre>
+
+<p>最后访问<a href="https://yxvine.github.io">https://yxvine.github.io</a> 。</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">标签</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://yxvine.github.io/tags/hexo-start/">hexo start</a>
+
+  <a class="tag tag--primary tag--small" href="https://yxvine.github.io/tags/responsive/">responsive</a>
+
+  <a class="tag tag--primary tag--small" href="https://yxvine.github.io/tags/gravatar/">gravatar</a>
+
+  <a class="tag tag--primary tag--small" href="https://yxvine.github.io/tags/disqus/">disqus</a>
+
+  <a class="tag tag--primary tag--small" href="https://yxvine.github.io/tags/google-analytics/">google analytics</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Xing Yang. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/3da7f57a2dd8d0ab8776bdfac1627091?s=110" alt="作者的图片" />
+    
+    <h4 id="about-card-name">Xing Yang</h4>
+    
+      <div id="about-card-bio">通信专业研究生毕业</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        后端、Mysql DBA
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+         深圳 China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://yxvine.github.io/images/coveryx.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://yxvine.github.io/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/yxvine.github.io\/2019\/10\/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9\/';
+          
+            this.page.identifier = '\/2019\/10\/%E6%96%B0%E7%9A%84blog%E5%BC%80%E5%A7%8B%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'tranquilpeak';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
