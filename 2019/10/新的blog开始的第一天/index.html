@@ -379,7 +379,10 @@ config.toml
 # 删除打包文件夹
 rm -rf public
 
-# 打包。even 是主题
+
+git clone https://github.com/yxvine/yxvine.github.io.git public
+
+# 打包。
 hugo -t tranquilpeak # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
 
 # 进入打包文件夹
@@ -387,20 +390,21 @@ cd public
 
 # Add changes to git.
 
-git init
-git add -A
+
 
 # Commit changes.
 msg=&quot;building site `date`&quot;
 if [ $# -eq 1 ]
   then msg=&quot;$1&quot;
 fi
+
+git add ./
 git commit -m &quot;$msg&quot;
 
+#git remote add origin https://github.com/yxvine/yxvine.github.io.git
 
-git remote add origin https://github.com/yxvine/yxvine.github.io.git
+#git pull  origin master
 
-git pull --rebase origin master
 
 
 # 推送到github
@@ -408,8 +412,6 @@ git pull --rebase origin master
 
 git push -u origin master
 
-
-# 回到原文件夹git@github.com:yxvine/yxvine.github.io.git
 cd ..
 
 </code></pre>
